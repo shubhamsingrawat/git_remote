@@ -1,0 +1,18 @@
+These messages are due to incorrect default value of core.autocrlf on Windows.
+
+The concept of autocrlf is to handle line endings conversions transparently. And it does!
+
+Bad news: value needs to be configured manually.
+Good news: it should only be done ONE time per git installation (per project setting is also possible).
+
+How autocrlf works:
+
+core.autocrlf=true:      core.autocrlf=input:     core.autocrlf=false:
+                                             
+        repo                     repo                     repo
+      ^      V                 ^      V                 ^      V
+     /        \               /        \               /        \
+crlf->lf    lf->crlf     crlf->lf       \             /          \      
+   /            \           /            \           /            \
+   
+   
