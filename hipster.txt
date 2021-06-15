@@ -15,4 +15,6 @@ core.autocrlf=true:      core.autocrlf=input:     core.autocrlf=false:
 crlf->lf    lf->crlf     crlf->lf       \             /          \      
    /            \           /            \           /            \
    
+adding more files data to it
+   
    
