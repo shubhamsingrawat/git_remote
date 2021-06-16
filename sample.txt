@@ -1,3 +1,4 @@
 Sample for intaila commite.
-Adding a sample for reabsing example. here i am making the change inside the feature branch.
+Adding a sample for reabsing example. here i am goting to do rally haevay chnages now.
 there we make a new change now for adding the file.
+inserting confilx text here.
